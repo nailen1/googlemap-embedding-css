@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #14213d;
+  /* border: 1px dashed black; */
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 600px;
+  height: fit-content;
+  text-align: center;
+  background-color: #fca311;
+  color: #14213d;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 50px;
+  padding: 10px 10px;
+}
+.text #title,
+.text #num {
+  padding: 5px 10px;
+}
+.text ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+.text ul li {
+  margin-right: 15px;
+}
+#price {
+  font-weight: 500;
+  font-size: 50px;
+  margin-right: 5px;
+}
+
+.frame {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  background: #e5e5e5;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 20px 20px;
+  /* border: 5px dashed red; */
+}
+.mapBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  /* border: 1px dashed red; */
+}
+.mapBox iframe {
+  width: 100%;
+  height: 100%;
+
+  /* border: 5px dashed yellow; */
+}
